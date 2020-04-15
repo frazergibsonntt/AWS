@@ -23,7 +23,7 @@
 
   roles:
     - role: tomcat-server
-  #  - role: todo-webapp
+    - role: todo-webapp
 
 
         
