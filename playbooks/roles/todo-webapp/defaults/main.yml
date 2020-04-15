@@ -7,7 +7,7 @@ db_password: password
 
 app_dist_bucket: 'com-nttdata-ta-demo'
 app_package: todo
-app_version: '0.0.1-SNAPSHOT'
+app_version: '0.0.7-SNAPSHOT'
 
 tomcat_home: '/usr/share/tomcat'
 
