@@ -1,6 +1,6 @@
 ---
 - name: Gather facts
-  hosts: all
+  hosts: web2
   gather_facts: true
 
 # - name: Configure DB Server
@@ -22,7 +22,7 @@
   #   moved to group_vars file 
 
   roles:
-  #  - role: tomcat-server
+    - role: tomcat-server
   #  - role: todo-webapp
 
 
