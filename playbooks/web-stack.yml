@@ -1,6 +1,6 @@
 ---
 - name: Gather facts
-  hosts: web2
+  hosts: web
   gather_facts: true
 
 # - name: Configure DB Server
@@ -13,7 +13,7 @@
 #     - role: todolist-db
 
 - name: Configure Web Server
-  hosts: web2
+  hosts: web
   become: true
   #vars_files:
   #  - secrets.yml
